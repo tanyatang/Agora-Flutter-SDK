@@ -257,7 +257,7 @@ class _State extends State<JoinChannelAudio> {
                       uid: int.tryParse(_selectedUidController.text) ?? -1,
                       mute: true);
                 },
-                child: Text('mute Remote Audio'),
+                child: const Text('mute Remote Audio'),
               ),
               ElevatedButton(
                 onPressed: () async {
@@ -265,7 +265,7 @@ class _State extends State<JoinChannelAudio> {
                       uid: int.tryParse(_selectedUidController.text) ?? -1,
                       mute: false);
                 },
-                child: Text('unmute Remote Audio'),
+                child: const Text('unmute Remote Audio'),
               ),
             ],
           ],
